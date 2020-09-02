@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+    <title>Responsive Navbar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">DesignX</label>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li> <i class="fa fa-user-circle"></i><a href="#">SERVICES </a> </li>
+        <li> <i class="fa fa-user-circle"></i><a href="#">ABOUT US </a> </li>
+       	<li> <i class="fa fa-database"></i><a href="#"> OUR EXPERTS </a> </li>
+       	<li> <i class="fa fa-laptop"></i><a href="#"> PORTFOLIO </a> </li>
+       	<li> <i class="fa fa-phone"></i><a href="#"> CONTACT US </a> </li>
+      </ul>
+    </nav>
+
+        <!-- register form -->
+
+     <div class="register-section"> 
+           <h1>REGISTER</h1>
+           <div class="border"> </div>
+           <form class="register-form"action="register.php"method="post">
+           <input class="register-form-text"type="text"placeholder="your name"name="user"required/>
+           <input class="register-form-text"type="text"placeholder="your email"name="email"required/>
+           <input class="register-form-text"type="text"placeholder="your phone"name="mobile"required/>
+           <input class="register-form-text"type="password"placeholder="password"name="password"required/>
+            <input class="register-form-text"type="password"placeholder="confirm-password"name="confirmpassword"required/>
+           <input type="submit"class="register-form-btn"value="send"name="submit">  
+         </form>
+
+     </div>
+ 
+</body>
+</html>
